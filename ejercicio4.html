@@ -1,0 +1,59 @@
+<html>
+    <head>
+
+    </head>
+
+    <body>
+        <form action="/index.html">
+           <h2>Formilario de registro</h2>
+
+           <label for="fname">Nombre:</label>
+           <input type="text" id="fname" name="fname">
+           <p></p>
+
+           <label for="lname">Apellidos:</label>
+           <input type="text" id="lname" name="lname"> 
+           <p></p>
+
+           <label for="sex">Sexo</label> 
+
+           <input type="radio" id="Hombre" name="sex">
+           <label for="hombre">Hombre</label>
+
+           <input type="radio" id="mujer" name="sex" checked="true">
+           <label for="Mujer">Mujer</label>
+           <p></p>
+
+            <label for="email">Correo</label>
+            <input type="text" name="email" id="email">
+            <p></p>
+
+          
+           <label for="pob">Población:</label>
+           <select name="pob" id="pob">Población
+               <option value="1"> La Coruña</option>
+               <option value="2">Barcelona</option>
+               <option selected value="3">Alicante</option>
+            </select>
+           <p></p>     
+
+
+            <label for="desc">Descripción</label>
+            <textarea name="desc" id="desc" cols="50" rows="5"></textarea>
+           <p></p>
+
+           <input type="checkbox" name="info" id="info">
+           <label for="info">Deseo recibir informacion sobre novedades y ofertas</label>
+           <p></p>
+
+           <input type="checkbox" name="condi" id="condi">
+           <label for="condi">Declaro haber leído y aceptar las condiciones generales del programa y la normativa sobre protección de datos</label>
+           <p></p>
+           
+           <input type="submit" value="Enviar">
+           
+        </form>
+
+
+    </body>
+</html>
